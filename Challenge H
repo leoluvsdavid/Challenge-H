@@ -1,0 +1,50 @@
+use_bpm 120
+use_synth :chiplead
+
+define :bat do |kit,mil|
+  play kit
+  play mil
+  sleep 0.5
+end
+# MEASURE 1 ---------------------------
+bat :a4, :a5
+bat :a4, :a5
+bat :c5, :c6
+bat :a4, :a5
+bat :d5, :d6
+bat :a4, :a5
+bat :e5, :e6
+bat :d5, :d6
+
+
+
+# MEASURE 2 ---------------------------
+bat :c5, :c6
+bat :c5, :c6
+bat :e5, :e6
+bat :c5, :c6
+bat :g5, :g6
+bat :c4, :c5
+bat :e5, :e6
+bat :c4, :c5
+
+# MEASURE 3 ---------------------------
+bat :g4, :g5
+bat :g4, :g5
+bat :b4, :b5
+bat :g4, :g5
+bat :c5, :c6
+bat :g4, :g5
+bat :d5, :d6
+bat :g4, :g5
+
+
+# MEASURE 4 ---------------------------
+bat :f4, :f5
+bat :f4, :f5
+bat :a4, :a5
+bat :f4, :f5
+bat :c5, :c6
+bat :f4, :f5
+bat :c5, :c6
+bat :b4, :b5
